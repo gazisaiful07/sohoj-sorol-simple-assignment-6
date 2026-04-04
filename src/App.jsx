@@ -3,7 +3,10 @@ import NavBar from "./component/NavBar"
 import Footer from "./component/Footer"
 import Models from "./component/Models"
 import Cart from "./component/Cart"
+import BannerSlide from "./component/BannerSlide"
+
 import { useState } from "react"
+
 
 
 const getModels = async () => {
@@ -23,6 +26,7 @@ function App() {
     <>
       <NavBar />
       <Banner />
+      <BannerSlide/>
       {/* name of each tab group should be unique */}
       <div className="tabs tabs-box justify-center m-10 bg-transparent">
         <input type="radio" name="my_tabs_1" className="tab rounded-full w-40" aria-label="Models"

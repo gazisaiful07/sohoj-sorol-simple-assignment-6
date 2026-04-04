@@ -3,7 +3,7 @@ const NavBar = () => {
     <div className="navbar max-w-7xl mx-auto">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl text-gradient-to-r from-violet-500 to-purple-500">
-          <img src="" alt="" />
+          <img src="./src/assets/DigiTools.png" alt="" />
         </div>
       </div>
       <div className="navbar-center hidden md:flex">
@@ -27,7 +27,7 @@ const NavBar = () => {
       </div>
       <div className="navbar-end gap-5">
         <a href="">Login</a>
-        <a className="btn bg-red-500 rounded-full text-white">Get in Touch</a>
+        <a className="btn bg-linear-to-r from-violet-500 to-purple-500 rounded-full text-white">Get Started</a>
       </div>
     </div>
   );
