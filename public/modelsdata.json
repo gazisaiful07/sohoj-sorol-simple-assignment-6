@@ -5,70 +5,108 @@
     "description": "Conversational AI for writing, coding, and problem-solving.\nUsed widely for productivity, learning, and automation.",
     "price": 20,
     "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-    "status": "popular"
+    "status": "popular",
+    "features1": "AI Chat",
+    "features2": "Code Assistance",
+    "features3": "Content Writing"
   },
   {
     "id": 2,
-    "title": "Midjourney",
-    "description": "AI image generator creating high-quality artwork from prompts.\nFavored by artists and designers.",
-    "price": 10,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png",
-    "status": "best seller"
+    "title": "Google Gemini",
+    "description": "Advanced AI model by Google for reasoning, coding, and multimodal tasks.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Google_Gemini_logo.svg",
+    "status": "popular",
+    "features1": "Multimodal AI",
+    "features2": "Deep Search",
+    "features3": "Fast Responses"
   },
   {
     "id": 3,
-    "title": "Grammarly",
-    "description": "AI writing assistant improving grammar and clarity.\nIdeal for emails, essays, and business writing.",
-    "price": 12,
-    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxiq8rwXckZAP_inAe6ki68mFKhxAIYYzc96KJMP0JY4KC899jXBwKagCNpSWPkAxVBj5ADudR0.gDOfn5L.Bpkg-&format=source",
-    "status": "popular"
+    "title": "Claude AI",
+    "description": "AI assistant by Anthropic focused on safety, reasoning, and long conversations.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Claude_AI_logo.png",
+    "status": "popular",
+    "features1": "Long Context",
+    "features2": "Safe AI",
+    "features3": "Summarization"
   },
   {
     "id": 4,
-    "title": "Notion AI",
-    "description": "Smart assistant integrated into Notion workspace.\nHelps with summaries, notes, and content creation.",
-    "price": 10,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
-    "status": "new"
+    "title": "Midjourney",
+    "description": "AI tool for generating high-quality images from text prompts.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_logo.png",
+    "status": "popular",
+    "features1": "Image Generation",
+    "features2": "Art Styles",
+    "features3": "Creative Design"
   },
   {
     "id": 5,
-    "title": "Jasper AI",
-    "description": "AI tool for marketing copy and content generation.\nSupports brand voice and SEO writing.",
-    "price": 39,
-    "image": "https://store-images.s-microsoft.com/image/apps.47595.9a5b943f-887a-4fe7-b1c6-d44a90c658fe.31db5641-66e6-4f64-9ab4-2a3ba66c2d73.9653c625-a855-4a91-bc32-ab984fa9bd91.png",
-    "status": "best seller"
+    "title": "DALL·E",
+    "description": "AI system for creating realistic images and art from natural language prompts.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/DALL-E_Logo.png",
+    "status": "popular",
+    "features1": "Text to Image",
+    "features2": "High Quality",
+    "features3": "Image Editing"
   },
   {
     "id": 6,
-    "title": "Canva AI",
-    "description": "Design platform with AI-powered visuals and text tools.\nCreate graphics, presentations, and social posts.",
-    "price": 0,
-    "image": "https://vectorseek.com/wp-content/uploads/2025/07/canva-ai-Logo-PNG-SVG-Vector-01-300x300.png",
-    "status": "popular"
+    "title": "Notion AI",
+    "description": "AI integrated into Notion for writing, summarizing, and productivity tasks.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "status": "popular",
+    "features1": "Note Writing",
+    "features2": "Summarization",
+    "features3": "Task Automation"
   },
   {
     "id": 7,
     "title": "Copy.ai",
-    "description": "AI copywriting tool for ads, blogs, and emails.\nQuickly generates marketing content ideas.",
-    "price": 36,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRly0jOyHtqlISgs8jwEiGrQ7Hrw5huU4mvUQ&s",
-    "status": "best seller"
+    "description": "AI tool focused on marketing copy, ads, and content generation.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Copy.ai_logo.png",
+    "status": "popular",
+    "features1": "Ad Copy",
+    "features2": "Marketing Tools",
+    "features3": "Content Ideas"
   },
   {
     "id": 8,
+    "title": "Grammarly AI",
+    "description": "AI-powered writing assistant for grammar, clarity, and tone improvement.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Grammarly_logo.svg",
+    "status": "popular",
+    "features1": "Grammar Check",
+    "features2": "Tone Detection",
+    "features3": "Rewrite Suggestions"
+  },
+  {
+    "id": 9,
     "title": "Runway ML",
-    "description": "AI video editing and generation platform.\nUsed for creative video production and effects.",
-    "price": 15,
-    "image": "https://my24hrshop.com/storage/2025/12/runwayml-icon-300x300.png",
-    "status": "new"
+    "description": "AI platform for video editing, generation, and creative media tools.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Runway_logo.png",
+    "status": "popular",
+    "features1": "Video AI",
+    "features2": "Text to Video",
+    "features3": "Editing Tools"
   },
   {
     "id": 10,
-    "title": "Pictory",
-    "description": "AI tool that converts text into engaging videos.\nGreat for content creators and marketers.",
-    "price": 19,
-    "image": "https://vectorseek.com/wp-content/uploads/2025/08/Pictory-Ai-Logo-PNG-SVG-Vector.png",
-    "status": "new"
+    "title": "Jasper AI",
+    "description": "AI content platform for marketing, blogs, and business writing.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Jasper_AI_logo.png",
+    "status": "popular",
+    "features1": "Blog Writing",
+    "features2": "SEO Tools",
+    "features3": "Templates"
   }
 ]
