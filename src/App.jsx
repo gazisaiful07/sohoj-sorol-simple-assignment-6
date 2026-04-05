@@ -7,6 +7,7 @@ import BannerSlide from "./component/BannerSlide"
 
 import { useState } from "react"
 import AccountSection from "./component/AccountSection"
+import PriceSection from "./component/PriceSection"
 
 
 
@@ -54,6 +55,7 @@ function App() {
 
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} />}
       <AccountSection />
+      <PriceSection />
 
     </>
   )
