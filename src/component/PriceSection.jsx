@@ -19,14 +19,14 @@ const PriceSection = () => {
                         <p>Community support</p>
                         <p>1 Project per month</p>
                     </div>
-                    <button className=" bg-linear-to-r from-violet-500 to-purple-500   text-white mt-5 rounded-full py-3 px-25.5">Get Started Free</button>
+                    <button className="cursor-pointer bg-linear-to-r from-violet-500 to-purple-500 text-white mt-5 rounded-full py-3 px-25.5 hover:text-white">Get Started Free</button>
                 </div>
                 <div className=" shadow rounded-lg bg-linear-to-r from-violet-500 to-purple-500 border border-zinc-100 p-6 relative  ">
                     <div class="absolute -top-3 left-1/2 -translate-x-1/2">
-    <span class="bg-orange-200 text-orange-600 text-sm px-4 py-1 rounded-full shadow">
-      Most Popular
-    </span>
-  </div>
+                        <span class="bg-orange-200 text-orange-600 text-sm px-4 py-1 rounded-full shadow">
+                            Most Popular
+                        </span>
+                    </div>
                     <div className=" text-white">
                         <h2 className="text-3xl font-bold tracking-wide">Pro</h2>
                         <p className=" text-white font-extralight">Best for professionals</p>
@@ -40,7 +40,7 @@ const PriceSection = () => {
                         <p>Cloud sync</p>
                         <p>Advanced analytics</p>
                     </div>
-                    <button className="  bg-white text-purple-600 mt-5 rounded-full py-3 px-25.5 tracking-wider">Start Pro Trial</button>
+                    <button className="cursor-pointer  bg-white text-purple-600 mt-5 rounded-full py-3 px-25.5 tracking-wider hover:bg-violet-600 hover:text-white">Start Pro Trial</button>
                 </div>
                 <div className=" shadow rounded-lg bg-gray-50 border border-zinc-100 p-6  ">
                     <div className="">
@@ -55,7 +55,7 @@ const PriceSection = () => {
                         <p>SLA guarantee</p>
                         <p>Custom branding</p>
                     </div>
-                    <button className="bg-linear-to-r from-violet-500 to-purple-500   text-white mt-5 rounded-full py-3 px-25.5">Get Started Free</button>
+                    <button className=" cursor-pointer bg-linear-to-r from-violet-500 to-purple-500   text-white mt-5 rounded-full py-3 px-25.5">Get Started Free</button>
                 </div>
             </div>
         </div>

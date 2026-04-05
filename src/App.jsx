@@ -8,6 +8,7 @@ import BannerSlide from "./component/BannerSlide"
 import { useState } from "react"
 import AccountSection from "./component/AccountSection"
 import PriceSection from "./component/PriceSection"
+import Newsletter from "./component/Newsletter"
 
 
 
@@ -56,6 +57,7 @@ function App() {
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts} />}
       <AccountSection />
       <PriceSection />
+      <Newsletter/>
 
     </>
   )
