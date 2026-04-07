@@ -1,6 +1,5 @@
 import Banner from "./component/Banner"
 import NavBar from "./component/NavBar"
-// import Footer from "./component/Footer"
 import Models from "./component/Models"
 import Cart from "./component/Cart"
 import BannerSlide from "./component/BannerSlide"
@@ -9,6 +8,7 @@ import { useState } from "react"
 import AccountSection from "./component/AccountSection"
 import PriceSection from "./component/PriceSection"
 import Newsletter from "./component/Newsletter"
+import Footer from "./component/Footer"
 
 
 
@@ -58,6 +58,7 @@ function App() {
       <AccountSection />
       <PriceSection />
       <Newsletter/>
+      <Footer/>
 
     </>
   )
