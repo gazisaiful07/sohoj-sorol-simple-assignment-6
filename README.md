@@ -1,4 +1,4 @@
-Project Name: Smart AI Subscription Shop
+Project Name: NeuroStack AI
 An AI subscription marketplace where people can browse different AI tools and choose plans that fit their needs with a simple and elegant interface.
 
 Technologies I used:
