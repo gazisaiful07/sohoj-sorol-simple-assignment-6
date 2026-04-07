@@ -1,4 +1,4 @@
-import React from "react";
+
 import { toast } from "react-toastify";
 const Cart = ({ carts, setCarts }) => {
     const totalPrice = carts.reduce((sum, item) => sum + item.price, 0)

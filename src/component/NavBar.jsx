@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import Cart from './Cart';
 const NavBar = () => {
   return (
     <div className="navbar max-w-7xl mx-auto">
@@ -25,7 +28,9 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
+
       <div className="navbar-end gap-5">
+        <div className='cursor-pointer'><FontAwesomeIcon icon={faCartShopping} />{Cart}</div>
         <a href="">Login</a>
         <a className="btn bg-linear-to-r from-violet-500 to-purple-500 rounded-full text-white">Get Started</a>
       </div>
